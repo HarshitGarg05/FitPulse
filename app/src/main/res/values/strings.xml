@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FitPulse</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_journal">Journal</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_profile">Profile</string>
+    <string name="hero_banner_desc">FitPulse performance telemetry banner</string>
+    <string name="free_forever_badge">100% Free Local SQLite • Zero Cloud Cost</string>
+    <string name="gdpr_notice_title">GDPR &amp; Privacy-First Architecture</string>
+    <string name="gdpr_notice_body">All workout, body measurement, and recovery data is stored locally on your device by default. You can export or permanently erase your data at any time.</string>
+</resources>

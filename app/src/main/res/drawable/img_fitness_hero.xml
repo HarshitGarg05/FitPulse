@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Deep athletic studio gradient background -->
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF091124" />
+                <item android:offset="0.55" android:color="#FF132242" />
+                <item android:offset="1.0" android:color="#FF0D3B4C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Decorative radial glow rings -->
+    <path
+        android:fillColor="#1800F5D4"
+        android:pathData="M250,40m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+    <path
+        android:fillColor="#22FF6B4A"
+        android:pathData="M70,150m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+    <!-- Telemetry grid lines -->
+    <path
+        android:strokeColor="#22FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M0,45L320,45M0,90L320,90M0,135L320,135M80,0L80,180M160,0L160,180M240,0L240,180" />
+    <!-- Dynamic ECG / performance pulse wave -->
+    <path
+        android:strokeColor="#FF00F5D4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M16,122 L72,122 L92,94 L112,138 L136,52 L158,144 L180,82 L202,114 L236,114 L264,74 L304,74" />
+    <!-- Secondary progression curve -->
+    <path
+        android:strokeColor="#FFFF6B4A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M16,148 Q95,140 160,108 T304,44" />
+    <!-- Stylized barbell silhouette in upper right -->
+    <path
+        android:fillColor="#4400F5D4"
+        android:pathData="M214,32h6v24h-6zM222,26h7v36h-7zM261,26h7v36h-7zM270,32h6v24h-6zM229,41h32v6h-32z" />
+</vector>

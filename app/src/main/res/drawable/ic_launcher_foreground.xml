@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bold filled dumbbell + pulse emblem centered in 66dp safe zone -->
+    <path
+        android:fillColor="#FF00F5D4"
+        android:pathData="M26,42h7v24h-7zM35,36h8v36h-8zM65,36h8v36h-8zM75,42h7v24h-7zM43,50h8l3,-9l4,18l3,-9h4v8h-2l-5,13l-4,-18l-3,5h-8z" />
+</vector>

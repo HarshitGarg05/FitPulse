@@ -1,0 +1,6 @@
+{
+  "name": "FitPulse",
+  "description": "Production-ready fitness tracking, workout logging, analytics, recovery readiness, offline sync, and social accountability platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
